@@ -5,6 +5,6 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 
 USER root
 
-RUN pip install prob140 datascience matplotlib matplotlib.pyplot scipy ipywidgets Ipython.display
+RUN pip install prob140 datascience matplotlib scipy ipywidgets ipython
 
 USER $NB_UID
